@@ -1,0 +1,34 @@
+{
+    "name": "dkarlovi/dockerfile",
+    "type": "library",
+    "description": "Dockerfile generation library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dalibor Karlović",
+            "email": "dkarlovi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dkarlovi\\Dockerfile\\": "Dockerfile/"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "webmozart/assert": "^1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
